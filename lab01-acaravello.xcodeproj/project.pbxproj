@@ -8,7 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		969434CC22239BFD0005B3DA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 969434CB22239BFD0005B3DA /* main.c */; };
+		96F947332224479E00BB2E02 /* functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 96F947322224479E00BB2E02 /* functions.c */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		969434D222239FB10005B3DA /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		969434C622239BFD0005B3DA /* CopyFiles */ = {
@@ -25,6 +38,8 @@
 /* Begin PBXFileReference section */
 		969434C822239BFD0005B3DA /* lab01-acaravello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "lab01-acaravello"; sourceTree = BUILT_PRODUCTS_DIR; };
 		969434CB22239BFD0005B3DA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		96F947312224479E00BB2E02 /* functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functions.h; sourceTree = "<group>"; };
+		96F947322224479E00BB2E02 /* functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = functions.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				969434CB22239BFD0005B3DA /* main.c */,
+				96F947312224479E00BB2E02 /* functions.h */,
+				96F947322224479E00BB2E02 /* functions.c */,
 			);
 			path = "lab01-acaravello";
 			sourceTree = "<group>";
@@ -74,6 +91,7 @@
 				969434C622239BFD0005B3DA /* CopyFiles */,
 			);
 			buildRules = (
+				969434D222239FB10005B3DA /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -119,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				969434CC22239BFD0005B3DA /* main.c in Sources */,
+				96F947332224479E00BB2E02 /* functions.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
