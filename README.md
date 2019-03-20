@@ -1,3 +1,5 @@
+# Grade:
+100 Great Job
 # Lab 1: C Programming
 ### 100 Points
 
